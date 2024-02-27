@@ -22,7 +22,7 @@ div#root{
     margin: 3% auto 3% auto;
     padding: 1.5%;
     border-radius: 1vw;
-    width: 40%;
+    width: 70%;
     height: auto;
     background-color: rgba(255, 255, 255, 0.351);
 }
@@ -49,11 +49,11 @@ div#root{
 }
 
 .main-content input{
-    width: 90%;
-    padding: 2% 16% 2% 2%;
-    border-radius: 2vw 0 0 2vw;
+    width: 56vw;
+    padding: 2% 14.5% 2% 2%;
+    border-radius: 5vw 0 0 5vw;
     height: 8vh;
-    font-size: x-large;
+    font-size: large;
     border:2px solid black;
     background-color: #866C69;
     caret-color: black;
@@ -62,8 +62,16 @@ div#root{
     transition: all 300ms;
 }
 
+.main-content input:hover{
+    padding: 2% 16.5% 2% 2%;
+
+}
+
+
 .main-content input:hover, .main-content input:hover + button {
-    transform: scale(1.1);
+    transform: scale(1.1) translateX(20px);
+
+
 }
 
 .main-content button:hover, .main-content button:hover + input {
@@ -76,11 +84,11 @@ div#root{
 }
 
 .main-content button{
-    width: 24%;
-    margin: 0 0 0 -15%;
-    font-size: x-large;
+    width: 12vw;
+    margin: 0 0 0 -12%;
+    font-size: large;
     padding: 2% 4%;
-    border-radius: 3vw;
+    border-radius:5vw;
     height: 8.2vh;
     background-color: #53331F;
     border:2px solid black;
@@ -91,10 +99,11 @@ div#root{
 }
 
 .bottom-content{
+    width: 85%;
     border: 1px solid black;
-    padding: 2%;
-    border-radius: 30px;
-    margin: 4vh;
+    padding: 4%;
+    border-radius: 2vw;
+    margin: 4vw auto 4vh;
 }
 
 .bottom-title{  
@@ -111,7 +120,6 @@ div#root{
 
 
 li{
-    margin: 40px;
     display: inline-block;
     width: 75%;
     position: relative;
@@ -130,7 +138,7 @@ li{
 }
 
 li:hover{
-    transform: translateX(0px);
+    transform: translateX(20px);
     scale: 1.1;
 }
 
@@ -218,10 +226,10 @@ li span:hover{
 
     .main-content input{
         width: 90%;
-        padding: 4% 20% 4% 4%;
-        border-radius: 4vw 0 0 4vw;
+        padding: 4% 27% 4% 4%;
+        border-radius: 8vw 0 0 8vw;
         height: 8vh;
-        font-size: x-large;
+        font-size: large;
         border:2px solid black;
         background-color: #866C69;
         caret-color: black;
@@ -231,11 +239,11 @@ li span:hover{
 
     .main-content button{
         position: absolute;
-        width: 15%;
-        margin: 0 0 0 -10%; 
-        font-size: x-large;
+        width:  25vw;
+        margin: 0 0 0 -15%; 
+        font-size: large;
         padding: 2% 4%;
-        border-radius: 6vw;
+        border-radius: 8vw;
         height: 8vh;
         background-color: #53331F;
         border:2px solid black;
@@ -373,7 +381,7 @@ li span:hover{
         position: absolute;
         width: 25%;
         margin: 0 0 0 -15%; 
-        font-size: x-large;
+        font-size:  large;
         padding: 2% 4%;
         border-radius: 8vw;
         height: 8vh;
