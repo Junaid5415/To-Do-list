@@ -175,7 +175,7 @@ li span:hover{
 }
 
 
-@media (min-width: 600px ) {
+@media (max-width: 600px ) {
     
     body{
         caret-color: transparent;
@@ -315,7 +315,7 @@ li span:hover{
 }
 
 
-@media (max-width: 450px ) {
+@media (max-width: 375px ) {
     
     body{
         caret-color: transparent;
@@ -358,8 +358,8 @@ li span:hover{
 
     .main-content input{
         width: 90%;
-        padding: 4% 18% 4% 4%;
-        border-radius: 6vw 0 0 6vw;
+        padding: 4% 20% 4% 4%;
+        border-radius: 8vw 0 0 8vw;
         height: 8vh;
         font-size: large;
         border:2px solid black;
@@ -371,11 +371,11 @@ li span:hover{
 
     .main-content button{
         position: absolute;
-        width: 20%;
-        margin: 0 0 0 -10%; 
+        width: 25%;
+        margin: 0 0 0 -15%; 
         font-size: x-large;
         padding: 2% 4%;
-        border-radius: 6vw;
+        border-radius: 8vw;
         height: 8vh;
         background-color: #53331F;
         border:2px solid black;
@@ -388,7 +388,7 @@ li span:hover{
         border: 1px solid black;
         padding: 2%;
         border-radius: 2vw;
-        margin: 4vh;
+        margin: 4vh 0vw;
     }
 
     .bottom-title{  
@@ -400,11 +400,11 @@ li span:hover{
 
     li{
         display: inline-block;
-        width: 75%;
+        width: 70%;
         position: relative;
         left:10px;
         list-style: none;
-        margin: 2vw 6vw;
+        margin: 2vw 9vw;
         /* background-color: #fff; */
         font-size: larger;
         padding:3%;
@@ -467,7 +467,7 @@ li span:hover{
         transform: scale(none);
     }
     li span:hover{
-        scale: 1;
+        scale: none;
     }
 
 
