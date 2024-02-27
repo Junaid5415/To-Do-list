@@ -148,7 +148,7 @@ li::before{
     height: 30px;
     position:absolute ;
     left:-35px;
-    top: 10px;
+    top: 20%;
     border-radius: 50%;
     background-color: white;
     background-image: url(images/unchecked.png);
